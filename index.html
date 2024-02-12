@@ -12,6 +12,7 @@
     integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
     crossorigin="anonymous" />
+  <script src="https://kit.fontawesome.com/62f1c40d87.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" type="text/css" href="style.css" />
   <title>Spotify REST API</title>
 </head>
@@ -121,6 +122,7 @@
         <div class="row">
           <div class="col-10">
             <div id="found" class="d-block mt-5">
+              <input type="text" class="mb-2" id="live-search" onkeyup="liveSearch()" placeholder="Search song...">
               <div id="artist-area">
                 <h2 class="text-light">Artist section:</h2>
                 <div id="artistSection">
